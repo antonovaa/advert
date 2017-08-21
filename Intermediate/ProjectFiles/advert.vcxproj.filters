@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\advert.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5D4F883C-0B4C-4EFD-A486-80C899FD2732}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\advert.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\advertEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1681A308-F45C-4445-AA3B-8E4399B9EF69}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\advert">
+      <UniqueIdentifier>{7D7D2B6C-7958-4866-B770-098FE69C4C12}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\advert\advert.Build.cs">
+      <Filter>Source\advert</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\advert\advert.cpp">
+      <Filter>Source\advert</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\advert\advert.h">
+      <Filter>Source\advert</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\advert\advertGameModeBase.cpp">
+      <Filter>Source\advert</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\advert\advertGameModeBase.h">
+      <Filter>Source\advert</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\advert\MyStandActor.h">
+      <Filter>Source\advert</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\advert\MyStandActor.cpp">
+      <Filter>Source\advert</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

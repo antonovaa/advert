@@ -1,0 +1,725 @@
+﻿Log file open, 08/21/17 14:07:40
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: advert
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(219782737) SRandInit(219782737).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.168435
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Unreal_About/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.21-11.07.41:676][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.21-11.07.41:676][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.21-11.07.41:682][  0]LogInit: Computer: DRO
+[2017.08.21-11.07.41:682][  0]LogInit: User: Dropro
+[2017.08.21-11.07.41:682][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.21-11.07.41:682][  0]LogInit: High frequency timer resolution =3.215350 MHz
+[2017.08.21-11.07.41:683][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.21-11.07.41:683][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.21-11.07.41:683][  0]LogMemory: Process Physical Memory: 275.62 MB used, 275.62 MB peak
+[2017.08.21-11.07.41:683][  0]LogMemory: Process Virtual Memory: 273.84 MB used, 273.84 MB peak
+[2017.08.21-11.07.41:683][  0]LogMemory: Physical Memory: 4872.28 MB used,  3265.87 MB free, 8138.14 MB total
+[2017.08.21-11.07.41:683][  0]LogMemory: Virtual Memory: 646.38 MB used,  3265.87 MB free, 134217728.00 MB total
+[2017.08.21-11.07.41:783][  0]LogInit: Using OS detected language (ru-RU).
+[2017.08.21-11.07.41:783][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.08.21-11.07.41:786][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.08.21-11.07.41:786][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.08.21-11.07.42:435][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.21-11.07.42:455][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2017.08.21-11.07.42:455][  0]LogD3D11RHI:       965/0/3072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.21-11.07.42:456][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.21-11.07.42:456][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.21-11.07.42:456][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.21-11.07.42:459][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.21-11.07.42:459][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.21-11.07.42:459][  0]LogWindows: EnumDisplayDevices:
+[2017.08.21-11.07.42:460][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2017.08.21-11.07.42:460][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.08.21-11.07.42:460][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.08.21-11.07.42:460][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.21-11.07.42:460][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2017.08.21-11.07.42:460][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.08.21-11.07.42:460][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.08.21-11.07.42:460][  0]LogRHI: Texture pool is 675 MB (70% of 965 MB)
+[2017.08.21-11.07.42:470][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.21-11.07.42:487][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.21-11.07.42:535][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Dropro/Unreal Projects/advert/Intermediate/Shaders/WorkingDirectory/1412/).
+[2017.08.21-11.07.42:535][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dropro/AppData/Local/Temp/UnrealShaderWorkingDir/1CE05C114481707167D79E91BF55B759/'.
+[2017.08.21-11.07.42:535][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.21-11.07.43:453][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.21-11.07.43:491][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.21-11.07.43:529][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.21-11.07.43:566][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.21-11.07.43:603][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.21-11.07.43:641][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.21-11.07.43:679][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.21-11.07.43:717][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.21-11.07.43:750][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.21-11.07.43:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.21-11.07.43:838][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.21-11.07.43:877][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.21-11.07.43:914][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.21-11.07.43:951][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.21-11.07.43:989][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.21-11.07.44:064][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.21-11.07.44:064][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.21-11.07.44:090][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.21-11.07.44:162][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.21-11.07.44:186][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.21-11.07.44:224][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.21-11.07.44:262][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.21-11.07.44:299][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.21-11.07.44:337][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.21-11.07.44:337][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.21-11.07.44:650][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.21-11.07.44:763][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Dropro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.21-11.07.44:763][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dropro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.21-11.07.44:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Dropro/Unreal Projects/advert/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.21-11.07.44:763][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.21-11.07.44:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Dropro/Unreal Projects/advert/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.21-11.07.44:763][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.21-11.07.44:783][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.21-11.07.44:796][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dropro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.21-11.07.44:809][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.21-11.07.44:810][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.21-11.07.44:810][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.21-11.07.44:810][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.21-11.07.45:165][  0]LogAssetRegistry: FAssetRegistry took 0.0298 seconds to start up
+[2017.08.21-11.07.45:301][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.21-11.07.45:462][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.21-11.07.45:702][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.21-11.07.45:728][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.21-11.07.45:728][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.21-11.07.45:728][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.21-11.07.45:728][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.21-11.07.45:728][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.21-11.07.46:072][  0]LogNetVersion: advert , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 337757849)
+[2017.08.21-11.07.46:226][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.016364 seconds
+[2017.08.21-11.07.46:233][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.21-11.07.46:233][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.08.21-11.07.46:233][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.21-11.07.46:270][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.21-11.07.48:311][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.21-11.07.48:346][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.21-11.07.48:831][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.21-11.07.49:118][  0]SourceControl: Source control is disabled
+[2017.08.21-11.07.49:118][  0]SourceControl: Source control is disabled
+[2017.08.21-11.07.49:179][  0]SourceControl: Source control is disabled
+[2017.08.21-11.07.49:228][  0]SourceControl: Source control is disabled
+[2017.08.21-11.07.49:640][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.21-11.07.49:805][  0]LogOcInput: OculusInput pre-init called
+[2017.08.21-11.07.49:996][  0]LogEngine: Initializing Engine...
+[2017.08.21-11.07.49:997][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.21-11.07.50:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.21-11.07.50:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.21-11.07.50:420][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.21-11.07.50:429][  0]LogInit: XAudio2 using 'Динамики (Envy24 Family Audio Controller WDM)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.21-11.07.50:442][  0]LogInit: FAudioDevice initialized.
+[2017.08.21-11.07.50:609][  0]LogDerivedDataCache: Saved boot cache 0.17s 93MB C:/Users/Dropro/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.21-11.07.50:623][  0]LogInit: Texture streaming: Enabled
+[2017.08.21-11.07.50:716][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.21-11.07.50:857][  0]LogInit: Transaction tracking system initialized
+[2017.08.21-11.07.51:064][  0]BlueprintLog: New page: Editor Load
+[2017.08.21-11.07.51:699][  0]LocalizationService: Localization service is disabled
+[2017.08.21-11.07.52:160][  0]LogConsoleResponse: Display: 
+[2017.08.21-11.07.52:327][  0]LogFileCache: Scanning file cache for directory 'E:/Dropro/Unreal Projects/advert/Content/' took 0.01s
+[2017.08.21-11.07.52:327][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.21-11.07.52:327][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.21-11.07.52:327][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.21-11.07.53:114][  0]SourceControl: Source control is disabled
+[2017.08.21-11.07.53:114][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.21-11.07.53:114][  0]LightingResults: New page: Lighting Build
+[2017.08.21-11.07.53:140][  0]MapCheck: New page: Map Check
+[2017.08.21-11.07.53:140][  0]LightingResults: New page: Lighting Build
+[2017.08.21-11.07.53:354][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.21-11.07.53:359][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.21-11.07.53:375][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.21-11.07.53:413][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.85ms to complete.
+[2017.08.21-11.07.53:413][  0]LogFileHelpers: Loading map 'Template_Default' took 0.299
+[2017.08.21-11.07.53:465][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.08.21-11.07.53:627][  0]LogCollectionManager: Loaded 0 collections in 0.000740 seconds
+[2017.08.21-11.07.53:706][  0]LogFileCache: Scanning file cache for directory 'E:/Dropro/Unreal Projects/advert/Saved/Collections/' took 0.01s
+[2017.08.21-11.07.53:706][  0]LogFileCache: Scanning file cache for directory 'E:/Dropro/Unreal Projects/advert/Content/Developers/Dropro/Collections/' took 0.01s
+[2017.08.21-11.07.53:706][  0]LogFileCache: Scanning file cache for directory 'E:/Dropro/Unreal Projects/advert/Content/Collections/' took 0.01s
+[2017.08.21-11.07.53:706][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.21-11.07.53:719][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2388 classes and 504 folders.
+[2017.08.21-11.07.53:788][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.08.21-11.07.53:850][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.08.21-11.07.53:909][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.21-11.07.53:916][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.21-11.07.53:920][  0]LogSlate: Took 0.001048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.21-11.07.54:040][  0]LogRenderer: Reallocating scene render targets to support 868x868 Format 10 NumSamples 1 (Frame:1).
+[2017.08.21-11.07.54:377][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.21-11.07.54:377][  0]LogLoad: (Engine Initialization) Total time: 14.11 seconds
+[2017.08.21-11.07.54:377][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.21-11.07.54:377][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.21-11.07.54:413][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.21-11.07.54:471][  1]LogAssetRegistry: Asset discovery search completed in 9.3310 seconds
+[2017.08.21-11.07.54:473][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.21-11.07.54:473][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2017.08.21-11.11.24:452][693]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.21-11.12.49:576][957]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.21-11.12.49:591][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:593][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:593][957]LoadErrors: Error: /Game/items/stands : Can't find file for asset. /Game/model/Stand_BP
+[2017.08.21-11.12.49:593][957]LogLinker: Warning: Can't find file '/Game/model/StandGM'
+[2017.08.21-11.12.49:593][957]LogLinker: Warning: Can't find file for asset '/Game/model/StandGM' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:593][957]LoadErrors: Error: /Game/items/stands : Can't find file for asset. /Game/model/StandGM
+[2017.08.21-11.12.49:595][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:595][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:595][957]LogLinker: Warning: Can't find file '/Game/model/StandGM'
+[2017.08.21-11.12.49:595][957]LogLinker: Warning: Can't find file for asset '/Game/model/StandGM' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:596][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:596][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:596][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:596][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:596][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:596][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:596][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:596][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:597][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:597][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap.
+[2017.08.21-11.12.49:598][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:598][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:598][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:599][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:600][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:601][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:601][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:602][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:602][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:602][957]LogLinker: Warning: Can't find file '/Game/model/Stand_BP'
+[2017.08.21-11.12.49:602][957]LoadErrors: Failed to load /Game/model/Stand_BP.Stand_BP_C Referenced by PersistentLevel
+[2017.08.21-11.12.49:602][957]LogLinker: Warning: Can't find file for asset '/Game/model/Stand_BP' while loading NULL.
+[2017.08.21-11.12.49:603][957]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.08.21-11.12.49:603][957]LogLinker: Warning: Can't find file '/Game/model/StandGM'
+[2017.08.21-11.12.49:603][957]LoadErrors: Failed to load /Game/model/StandGM.StandGM_C Referenced by WorldSettings_1
+[2017.08.21-11.12.49:603][957]LogLinker: Warning: Can't find file for asset '/Game/model/StandGM' while loading NULL.
+[2017.08.21-11.12.49:609][957]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.08.21-11.12.49:609][957]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.08.21-11.12.49:609][957]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.08.21-11.12.49:609][957]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 64X32)
+[2017.08.21-11.12.49:611][957]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 256X128)
+[2017.08.21-11.12.49:612][957]LogAIModule: Creating AISystem for world stands
+[2017.08.21-11.12.49:633][957]Cmd: MAP LOAD FILE="../../../../../../Dropro/Unreal Projects/advert/Content/items/stands.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.21-11.12.49:633][957]LightingResults: New page: Lighting Build
+[2017.08.21-11.12.49:633][957]LoadErrors: New page: Loading map: stands.umap
+[2017.08.21-11.12.49:634][957]MapCheck: New page: Map Check
+[2017.08.21-11.12.49:634][957]LightingResults: New page: Lighting Build
+[2017.08.21-11.12.49:652][957]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.21-11.12.49:674][957]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.21-11.12.49:711][957]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.395ms to complete.
+[2017.08.21-11.12.49:711][957]LogFileHelpers: Loading map 'stands' took 0.080
+[2017.08.21-11.12.49:718][957]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight': Stand_BP_C /Game/items/stands.stands:PersistentLevel.Stand_BP_221
+[2017.08.21-11.12.49:718][957]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight1': Stand_BP_C /Game/items/stands.stands:PersistentLevel.Stand_BP_221
+[2017.08.21-11.12.49:718][957]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Stand_BP_C /Game/items/stands.stands:PersistentLevel.Stand_BP_221
+[2017.08.21-11.12.49:718][957]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': Stand_BP_C /Game/items/stands.stands:PersistentLevel.Stand_BP_221
+[2017.08.21-11.12.49:718][957]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': Stand_BP_C /Game/items/stands.stands:PersistentLevel.Stand_BP_221
+[2017.08.21-11.13.07:500][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.21-11.13.08:862][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:862][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:862][740]LoadErrors: Error: /Game/items/model/Stand_BP : Can't find file for asset. /Script/adver
+[2017.08.21-11.13.08:864][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:864][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:864][740]LogLinker: Warning: Can't find file '/Game/model/stands/drrr_001'
+[2017.08.21-11.13.08:864][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/drrr_001' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:864][740]LoadErrors: Error: /Game/items/model/Stand_BP : Can't find file for asset. /Game/model/stands/drrr_001
+[2017.08.21-11.13.08:865][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:865][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:865][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:865][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:866][740]LogLinker: Warning: Can't find file '/Game/model/stands/drrr_001'
+[2017.08.21-11.13.08:866][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/drrr_001' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:866][740]LogLinker: Warning: Can't find file '/Game/model/stands/phuke1'
+[2017.08.21-11.13.08:866][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/phuke1' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:866][740]LoadErrors: Error: /Game/items/model/Stand_BP : Can't find file for asset. /Game/model/stands/phuke1
+[2017.08.21-11.13.08:866][740]LogLinker: Warning: Can't find file '/Game/model/stands/test/stand2_Cube_002'
+[2017.08.21-11.13.08:866][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/test/stand2_Cube_002' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:866][740]LoadErrors: Error: /Game/items/model/Stand_BP : Can't find file for asset. /Game/model/stands/test/stand2_Cube_002
+[2017.08.21-11.13.08:866][740]LogLinker: Warning: Can't find file '/Game/model/stands/test/stand2_Cube_004'
+[2017.08.21-11.13.08:866][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/test/stand2_Cube_004' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:867][740]LoadErrors: Error: /Game/items/model/Stand_BP : Can't find file for asset. /Game/model/stands/test/stand2_Cube_004
+[2017.08.21-11.13.08:867][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:867][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:867][740]LogLinker: Warning: Can't find file '/Game/model/stands/test/stand2_Cube_002'
+[2017.08.21-11.13.08:867][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/test/stand2_Cube_002' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:867][740]LogLinker: Warning: Can't find file '/Game/model/stands/test/stand2_Cube_004'
+[2017.08.21-11.13.08:867][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/test/stand2_Cube_004' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: Can't find file '/Game/model/stands/phuke1'
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/phuke1' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/Stand_BP.uasset.
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:868][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:869][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:870][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:870][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:870][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:871][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:872][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:873][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:873][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:873][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:874][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:874][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:874][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:874][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:874][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:874][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:875][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:876][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:876][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by Stand_BP
+[2017.08.21-11.13.08:876][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:876][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:876][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:876][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:876][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:877][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_CallFunction_18
+[2017.08.21-11.13.08:877][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:877][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:877][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_CallFunction_21
+[2017.08.21-11.13.08:877][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:877][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:877][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_CallFunction_39
+[2017.08.21-11.13.08:877][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:878][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:878][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_ComponentBoundEvent_0
+[2017.08.21-11.13.08:878][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:878][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:878][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:878][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_ComponentBoundEvent_1
+[2017.08.21-11.13.08:878][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:878][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:879][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:879][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_ComponentBoundEvent_2
+[2017.08.21-11.13.08:879][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:879][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:879][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:879][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_VariableGet_0
+[2017.08.21-11.13.08:879][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:879][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:879][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:879][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_VariableGet_33
+[2017.08.21-11.13.08:879][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:880][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:880][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:880][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_VariableGet_6
+[2017.08.21-11.13.08:880][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:880][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:880][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_VariableGet_66
+[2017.08.21-11.13.08:880][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:880][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:880][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:880][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_VariableGet_9
+[2017.08.21-11.13.08:881][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:881][740]LogLinker: Warning: Can't find file '/Game/model/stands/phuke1'
+[2017.08.21-11.13.08:881][740]LoadErrors: Failed to load /Game/model/stands/phuke1.phuke1 Referenced by K2Node_VariableSet_0
+[2017.08.21-11.13.08:881][740]LogLinker: Warning: Can't find file for asset '/Game/model/stands/phuke1' while loading NULL.
+[2017.08.21-11.13.08:881][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:881][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_VariableSet_0
+[2017.08.21-11.13.08:881][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:881][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:881][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by K2Node_VariableSet_58
+[2017.08.21-11.13.08:882][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:882][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:882][740]LogLinker: Warning: Can't find file '/Script/adver'
+[2017.08.21-11.13.08:882][740]LoadErrors: Failed to load /Script/adver.MyStandActor Referenced by PackageMetaData
+[2017.08.21-11.13.08:882][740]LogLinker: Warning: Can't find file for asset '/Script/adver' while loading NULL.
+[2017.08.21-11.13.08:882][740]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'def': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'NewVar_0': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight1': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_Stand_BP': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_BooleanAND_ReturnValue': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_EqualEqual_IntInt_ReturnValue2': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_EqualEqual_IntInt_ReturnValue': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Blueprint_GetSizeY_ReturnValue2': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:895][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Blueprint_GetSizeX_ReturnValue2': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Blueprint_GetSizeX_ReturnValue': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_Blueprint_GetSizeY_ReturnValue': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_SweepResult': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_bFromSweep': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_OtherBodyIndex': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_OtherComp': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_OtherActor': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_OverlappedComponent': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_ButtonPressed': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_TouchedComponent': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_TouchedComponent2': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'K2Node_Event_DeltaSeconds': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CallFunc_CreateDynamicMaterialInstance_ReturnValue': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/items/model/Stand_BP.Stand_BP_C:ExecuteUbergraph_Stand_BP
+[2017.08.21-11.13.08:896][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'BndEvt__StaticMesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:897][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SweepResult': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+[2017.08.21-11.13.08:897][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'bFromSweep': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+[2017.08.21-11.13.08:897][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'OtherBodyIndex': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+[2017.08.21-11.13.08:897][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'OtherComp': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+[2017.08.21-11.13.08:897][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'OtherActor': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+[2017.08.21-11.13.08:897][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'OverlappedComponent': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+[2017.08.21-11.13.08:897][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'BndEvt__StaticMesh_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:897][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ButtonPressed': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'TouchedComponent': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_1_ComponentOnClickedSignature__DelegateSignature
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'BndEvt__StaticMesh_K2Node_ComponentBoundEvent_0_ComponentBeginCursorOverSignature__DelegateSignature': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'TouchedComponent': Function /Game/items/model/Stand_BP.Stand_BP_C:BndEvt__StaticMesh_K2Node_ComponentBoundEvent_0_ComponentBeginCursorOverSignature__DelegateSignature
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ReceiveBeginPlay': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ReceiveTick': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DeltaSeconds': Function /Game/items/model/Stand_BP.Stand_BP_C:ReceiveTick
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:898][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ComponentDelegateBinding_33': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:899][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight1_GEN_VARIABLE': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:899][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight_GEN_VARIABLE': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:899][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:899][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:899][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/items/model/Stand_BP.Stand_BP_C:SimpleConstructionScript_0
+[2017.08.21-11.13.08:899][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_1': SimpleConstructionScript /Game/items/model/Stand_BP.Stand_BP_C:SimpleConstructionScript_0
+[2017.08.21-11.13.08:899][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_2': SimpleConstructionScript /Game/items/model/Stand_BP.Stand_BP_C:SimpleConstructionScript_0
+[2017.08.21-11.13.08:899][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_3': SimpleConstructionScript /Game/items/model/Stand_BP.Stand_BP_C:SimpleConstructionScript_0
+[2017.08.21-11.13.08:900][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_4': SimpleConstructionScript /Game/items/model/Stand_BP.Stand_BP_C:SimpleConstructionScript_0
+[2017.08.21-11.13.08:900][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1_GEN_VARIABLE': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.13.08:900][740]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh_GEN_VARIABLE': BlueprintGeneratedClass /Game/items/model/Stand_BP.Stand_BP_C
+[2017.08.21-11.14.00:128][488]LogLinker: Warning: Can't find file '/Game/model/mePC'
+[2017.08.21-11.14.00:128][488]LogLinker: Warning: Can't find file for asset '/Game/model/mePC' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/StandGM.uasset.
+[2017.08.21-11.14.00:128][488]LoadErrors: Error: /Game/items/model/StandGM : Can't find file for asset. /Game/model/mePC
+[2017.08.21-11.14.00:129][488]LogLinker: Warning: Can't find file '/Game/model/mePC'
+[2017.08.21-11.14.00:129][488]LogLinker: Warning: Can't find file for asset '/Game/model/mePC' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/StandGM.uasset.
+[2017.08.21-11.14.00:130][488]LogLinker: Warning: Can't find file '/Game/model/mePC'
+[2017.08.21-11.14.00:130][488]LogLinker: Warning: Can't find file for asset '/Game/model/mePC' while loading NULL.
+[2017.08.21-11.14.00:130][488]LogLinker: Warning: Can't find file '/Game/model/mePC'
+[2017.08.21-11.14.00:130][488]LogLinker: Warning: Can't find file for asset '/Game/model/mePC' while loading NULL.
+[2017.08.21-11.14.00:130][488]LogLinker: Warning: Can't find file '/Game/model/mePC'
+[2017.08.21-11.14.00:130][488]LoadErrors: Failed to load /Game/model/mePC.mePC_C Referenced by Default__StandGM_C
+[2017.08.21-11.14.00:130][488]LogLinker: Warning: Can't find file for asset '/Game/model/mePC' while loading NULL.
+[2017.08.21-11.14.00:131][488]LogBlueprint: Warning: FMemberReference::ResolveMember (gimg) bSelfContext == true, but no scope supplied!
+[2017.08.21-11.14.00:131][488]LogBlueprint: Warning: FMemberReference::ResolveMember (getimg) bSelfContext == true, but no scope supplied!
+[2017.08.21-11.14.00:131][488]LogBlueprint: Warning: FMemberReference::ResolveMember (getimg) bSelfContext == true, but no scope supplied!
+[2017.08.21-11.14.00:548][488]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 113 classes and 0 folders.
+[2017.08.21-11.14.01:399][488]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.21-11.14.04:848][750]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.21-11.14.04:850][750]LogSlate: Took 0.001537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.21-11.14.09:436][ 67]LogLinker: Warning: Can't find file '/Game/model/Setupnewimg'
+[2017.08.21-11.14.09:436][ 67]LogLinker: Warning: Can't find file for asset '/Game/model/Setupnewimg' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/mePC.uasset.
+[2017.08.21-11.14.09:436][ 67]LoadErrors: Error: /Game/items/model/mePC : Can't find file for asset. /Game/model/Setupnewimg
+[2017.08.21-11.14.09:437][ 67]LogLinker: Warning: Can't find file '/Game/model/Setupnewimg'
+[2017.08.21-11.14.09:437][ 67]LogLinker: Warning: Can't find file for asset '/Game/model/Setupnewimg' while loading ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/mePC.uasset.
+[2017.08.21-11.14.09:580][ 67]LogLinker: Warning: Can't find file '/Game/model/Setupnewimg'
+[2017.08.21-11.14.09:581][ 67]LogLinker: Warning: Can't find file for asset '/Game/model/Setupnewimg' while loading NULL.
+[2017.08.21-11.14.09:581][ 67]LogLinker: Warning: Can't find file '/Game/model/Setupnewimg'
+[2017.08.21-11.14.09:581][ 67]LogLinker: Warning: Can't find file for asset '/Game/model/Setupnewimg' while loading NULL.
+[2017.08.21-11.14.09:581][ 67]LogLinker: Warning: Can't find file '/Game/model/Setupnewimg'
+[2017.08.21-11.14.09:581][ 67]LogLinker: Warning: Can't find file for asset '/Game/model/Setupnewimg' while loading NULL.
+[2017.08.21-11.14.09:583][ 67]LogLinker: Warning: Can't find file '/Game/model/Setupnewimg'
+[2017.08.21-11.14.09:584][ 67]LoadErrors: Failed to load /Game/model/Setupnewimg.Setupnewimg_C Referenced by K2Node_CreateWidget_0
+[2017.08.21-11.14.09:584][ 67]LogLinker: Warning: Can't find file for asset '/Game/model/Setupnewimg' while loading NULL.
+[2017.08.21-11.14.09:584][ 67]LogLinker: Warning: Can't find file '/Game/model/Setupnewimg'
+[2017.08.21-11.14.09:584][ 67]LogLinker: Warning: Can't find file for asset '/Game/model/Setupnewimg' while loading NULL.
+[2017.08.21-11.14.09:588][ 67]LogBlueprint: Error: [Compiler mePC] Spawn node  Create Widget  must have a class specified.
+[2017.08.21-11.14.09:594][ 67]LogBlueprint: Warning: [Compiler mePC] [0389.33] Compile of mePC failed. 1 Fatal Issue(s) 0 Warning(s) [in 9 ms] (/Game/items/model/mePC.mePC)
+[2017.08.21-11.14.10:013][ 68]LogSlate: Took 0.001471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.21-11.14.18:901][819]BlueprintLog: New page: Compile mePC
+[2017.08.21-11.14.21:243][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/items/model/mePC" FILE="../../../../../../Dropro/Unreal Projects/advert/Content/items/model/mePC.uasset" SILENT=true
+[2017.08.21-11.14.21:292][981]LogSavePackage: Save=43.13ms
+[2017.08.21-11.14.21:292][981]LogSavePackage: Moving '../../../../../../Dropro/Unreal Projects/advert/Saved/mePCBE51A0D94A33559C857CF08E3E94D0A3.tmp' to '../../../../../../Dropro/Unreal Projects/advert/Content/items/model/mePC.uasset'
+[2017.08.21-11.14.21:296][981]LogSavePackage: Display: Finished SavePackage ../../../../../../Dropro/Unreal Projects/advert/Content/items/model/mePC.uasset
+[2017.08.21-11.14.37:787][245]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.154 s
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: === Handled ensure: ===
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: 
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 631]
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: Unable to resolve IsEventUnimplementable() - Blueprint (Stand_BP) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: Stack: 
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000002833606
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000025BC2D2
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000025D4746
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000FBE619BD
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000FBE627ED
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000FBE624C9
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCDAE325
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCDECAD1
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCDAEC8A
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFBEFF7
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FD0FF81C
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FD103DEC
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000FB035D48
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000FAF5C4AB
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFABB1A
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FD0DD14D
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFCDDC9
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFAB06E
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFCE396
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCCED38E
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCD2911C
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCD171F9
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCD9AA0F
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCEB3F4D
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000F0257F6E
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000FE28E3ED
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000F01F2875
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1E14C8
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF193DA7
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF19B637
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1EB669
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1922F1
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF19A43F
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF198148
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1F8150
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1EB8CA
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C3C5F9E
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C396D9E
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C42F7C4
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C419092
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C40AC40
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000280B377
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000027F3B51
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000280D22B
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000027EECB2
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: USER32.dll!0x0000000031AB250D
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: USER32.dll!0x0000000031AB2367
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000280D936
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6C4BE2
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6D3970
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6D39EA
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6E02D9
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6E1C47
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: KERNEL32.DLL!0x0000000031CE13D2
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: ntdll.dll!0x0000000033F603C4
+[2017.08.21-11.14.37:787][245]LogOutputDevice: Error: 
+[2017.08.21-11.14.37:789][245]LogStats:                SubmitErrorReport -  0.000 s
+[2017.08.21-11.14.38:283][245]LogStats:                    SendNewReport -  0.494 s
+[2017.08.21-11.14.38:283][245]LogStats:             FDebug::EnsureFailed -  0.650 s
+[2017.08.21-11.14.38:291][245]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: === Handled ensure: ===
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: 
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 730]
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: Unable to resolve IsFieldInaccessible() - Blueprint (Stand_BP) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: Stack: 
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000002833606
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000025BC2D2
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000025D4746
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000FBE6235C
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000FBE627ED
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000FBE624C9
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCDAE325
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCDECAD1
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCDAEC8A
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFBEFF7
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FD0FF81C
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FD103DEC
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000FB035D48
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000FAF5C4AB
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFABB1A
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FD0DD14D
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFCDDC9
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFAB06E
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCFCE396
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCCED38E
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCD2911C
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCD171F9
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCD9AA0F
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000FCEB3F4D
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000F0257F6E
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000FE28E3ED
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000F01F2875
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1E14C8
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF193DA7
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF19B637
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1EB669
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1922F1
+[2017.08.21-11.14.38:291][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF19A43F
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF198148
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1F8150
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000EF1EB8CA
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C3C5F9E
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C396D9E
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C42F7C4
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C419092
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000000C40AC40
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000280B377
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000027F3B51
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000280D22B
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000027EECB2
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: USER32.dll!0x0000000031AB250D
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: USER32.dll!0x0000000031AB2367
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000280D936
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6C4BE2
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6D3970
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6D39EA
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6E02D9
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: UE4Editor.exe!0x00000000AF6E1C47
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: KERNEL32.DLL!0x0000000031CE13D2
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: ntdll.dll!0x0000000033F603C4
+[2017.08.21-11.14.38:292][245]LogOutputDevice: Error: 
+[2017.08.21-11.14.38:296][245]LogStats:                SubmitErrorReport -  0.000 s
